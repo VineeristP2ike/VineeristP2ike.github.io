@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Geo&display=swap" rel="stylesheet");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(wood.jpg);
+  background-size: cover;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  
+  font-family: 'Audiowide', cursive;
+  font-size: 7em;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #996515);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  width: 600px;
+  font-family: 'Geo', sans-serif;
+  font-size: 4em;
+  margin-top: 0px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #996515);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+.pealkiri2 {
+  margin: 0px 0px;
+}
+a {
+  text-decoration: none;
+}
+/* järgmine asi paneb asja liikuma*/
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
