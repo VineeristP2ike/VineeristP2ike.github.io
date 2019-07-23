@@ -9,9 +9,7 @@
 body {
   margin: 0;
   height: 100vh;
-  overflow: auto;
-  background-image: url(wood.jpg);
-  background-size: cover;
+  overflow: hidden;
   display: flex;
   line-height: 1.5;
   font-family: 'Montserrat', sans-serif;
@@ -24,7 +22,7 @@ a {
   text-decoration: none;
   color: rgb(255, 249, 217);
 }
-
+/* menüü algus*/
 #check {
   display: none;
 }
@@ -107,12 +105,15 @@ aside {
     width: 50vw;
   }
 }
+/* menüü lõpp*/
 
 article {
   position: relative;
   transform-origin: 10% 50%;
   width: 100%;
   
+  background-image: url(wood.jpg);
+  background-size: cover;
 }
 article .wrapper {
   margin: auto;
@@ -131,7 +132,6 @@ article .wrapper h1 {
 article .wrapper .footer {
   text-align: right;
 }
-
 /* logo pealeht */
 h1 {
 
@@ -203,4 +203,3 @@ img {
 p {
   justify-content: center;
 }
-
